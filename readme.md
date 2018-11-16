@@ -9,6 +9,7 @@ View altında bulunan .js dosyaları otomatik olarak webpack ile compile edilir 
 Modullerin yüklenmesi için:
 
 /config/module.php dosyasına tanımlanmalıdır..
+```
 return  [
    'modules' => [
        'Home',
@@ -16,13 +17,13 @@ return  [
        'Yazi'
    ]
 ];
-
+```
 
 Test için..
-
+```
 #php artisan serve
 
 #npm run watch
-
+```
 
 
