@@ -1,8 +1,8 @@
 <template>
   <div>
-    <h1>Hello World!</h1>
+    <h1>Yazi.js</h1>
     {{veri}}
-    {{ex}}
+    
   </div>
 </template>
 <script>
@@ -11,11 +11,9 @@ export default {
     data (){
         return{
             veri : {},
-           
         }
     },
     mounted () {
-       
     axios
       .get('https://api.coindesk.com/v1/bpi/currentprice.json')
       .then(response =>  {

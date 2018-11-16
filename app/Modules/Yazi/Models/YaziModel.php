@@ -1,12 +1,12 @@
-<?php namespace App\Modules\ModuleOne\Models;
+<?php namespace App\Modules\Yazi\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
 
-class TestModel extends Model
+class YaziModel extends Model
 {
 	/**
-	 * Added just to demonstrate that models work
+	 * 
 	 * @return String
 	 */
 	public function getAny()

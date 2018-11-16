@@ -9,7 +9,7 @@ new Vue({
   data: function () {
     return {
       opened:false,
-      sx:'deneme'
+     
     }
   },
   methods: {

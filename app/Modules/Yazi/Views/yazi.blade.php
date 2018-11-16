@@ -1,7 +1,6 @@
 
 @extends('layouts.app')
 @section('content')
-
   <q-modal v-model="opened">
       <h4>Basic Modal</h4>
       <q-btn
@@ -11,9 +10,8 @@
       />
     </q-modal>
   <div class="q-pa-sm">
-  @{{sx}}
-  
-    <component-a></component-a>
+    Component : 
+   <component-a></component-a>
   </div>
 @endsection
 @section('footer')
