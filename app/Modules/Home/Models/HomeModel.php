@@ -1,9 +1,9 @@
-<?php namespace App\Modules\Yazi\Models;
+<?php namespace App\Modules\Home\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
 
-class YaziModel extends Model
+class HomeModel extends Model
 {
 	/**
 	 * 
@@ -11,6 +11,6 @@ class YaziModel extends Model
 	 */
 	public function getData()
 	{
-		return 'Yazı Model Data';
+		return 'Home';
 	}
 }

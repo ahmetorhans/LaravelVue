@@ -17,5 +17,11 @@ class IndexController extends Controller
 		return view('Ayarlar::ayarlar', compact('data'));
 	}
 
+	public function test()
+	{
+		
+		return "test";
+	}
+
 	
 }

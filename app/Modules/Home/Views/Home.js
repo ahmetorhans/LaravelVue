@@ -8,13 +8,9 @@ new Vue({
   },
   data: function () {
     return {
-     
     }
   },
   methods: {
-    launch: function () {
-      console.log('Deneme');
-      
-    }
+   
   }
 })
