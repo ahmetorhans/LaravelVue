@@ -21,6 +21,12 @@ return  [
 
 Test için..
 ```
+#composer install
+
+#npm install --save-dev cross-env
+
+
+
 #php artisan serve
 
 #npm run watch
