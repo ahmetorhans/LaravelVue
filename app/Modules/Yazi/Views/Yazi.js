@@ -8,6 +8,7 @@ new Vue({
   },
   data: function () {
     return {
+      opened:false,
      
     }
   },
