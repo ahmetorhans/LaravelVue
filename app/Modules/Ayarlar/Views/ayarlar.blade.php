@@ -4,6 +4,7 @@
 
     <div class="q-pa-sm">
          {{$data}}
+         <component-a></component-a>
     </div>
 @endsection
 @section('footer')
