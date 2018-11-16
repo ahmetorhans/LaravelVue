@@ -20,8 +20,8 @@
           <q-toolbar style="height: 80px;border-bottom:1px solid #ddd;background-color:#0078d7">
             <q-btn flat round dense @click="drawerState = !drawerState" icon="menu"></q-btn>
             <q-toolbar-title>
-              Wmatik 4
-              <div slot="subtitle">wmatik v.4.002 </div>
+              Laravel Vue 
+              <div slot="subtitle">wmatik </div>
             </q-toolbar-title>
           </q-toolbar>
         </q-layout-header>
@@ -29,9 +29,11 @@
         <q-layout-drawer v-model="drawerState" content-class="bg-grey-1">
           <q-list no-border link inset-delimiter>
             <q-list-header>Menu</q-list-header>
-            <q-item @click.native="launch('http://quasar-framework.org')">
-              <q-item-side icon="school"></q-item-side>
-              <q-item-main label="Docs" ></q-item-main>
+            <q-item @click.native="gez('ayarlar')">
+              <q-item-side icon="settings"></q-item-side><q-item-main label="Ayarlar" ></q-item-main>
+            </q-item>
+            <q-item @click.native="gez('yazi')">
+              <q-item-side icon="title"></q-item-side><q-item-main label="Yazı" ></q-item-main>
             </q-item>
 
           </q-list>
@@ -50,14 +52,18 @@
     <script src="https://cdn.jsdelivr.net/npm/vue@latest/dist/vue.min.js"></script>
     <script src="js/quasar.js"></script>
     <script>
+
         new Vue({
         el: '#qapp',
         data: function () {
           return {
             drawerState: true,
             opened:false
-
-
+         }  
+        },
+        methods : {
+          gez : function (url){
+            window.location.href= url;
           }
         }
       })
